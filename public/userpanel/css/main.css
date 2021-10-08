@@ -1,0 +1,575 @@
+/* Start Global Style to Whole Website */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.main-color{
+    color: rgb(102, 99, 99);
+}
+.acticeColor{
+    color: magenta;
+    text-decoration: none;
+    font-weight: bold;
+}
+svg{
+    cursor: pointer;
+}
+ul li a{
+    color: rgb(71, 68, 68);
+    text-decoration: none;
+    font-weight: bold;
+}
+/* End Global Style to Whole Website */
+
+/* ---------- Start Style Head ----------*/
+header{
+    background-color: rgb(211, 205, 205);
+    padding: 10px 0;
+}
+header .info-account{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-account .my-info ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.info-account .my-info ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.orders p{
+    font-weight: bold;
+}
+/* ---------- End Style Head ----------*/
+
+/* ---------- Start Style Search ----------*/
+.search{
+    margin: 5px 0;
+}
+.search .searchInput{
+    text-align: center;
+    margin: 30px 0;
+}
+.search .searchInput input{
+    width: 300px;
+    padding: 10px;
+    /* border-radius: 10px; */
+    border: none;
+}
+.search .searchInput .icons{
+    border: gray solid 2px;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* ---------- End Style Search ----------*/
+
+/* ---------- Start Style menu ----------*/
+.menu{
+    background-color: black;
+    padding: 10px;
+    margin-top: 5px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu .menu-content ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+.menu .menu-content ul span li a ,
+.menu p{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+.menu .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu p{
+    font-family: cursive;
+    font-size: 25px;
+}
+/* ---------- End Style menu ----------*/
+
+/* ---------- Start Style swiper ----------*/
+.swiper{
+    direction: rtl;
+    margin-bottom: 30px;
+}
+.swiper .slide1{
+    background-image: url(../img/3\ girls.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.swiper .slide2{
+    background-image: url(../img/girle2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.swiper .slide3{
+    background-image: url(../img/girle3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.swiper .slide1 .msg,
+.swiper .slide2 .msg,
+.swiper .slide3 .msg{
+    top: 50%; left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    background-color: rgb(209, 55, 171);
+    padding: 20px;
+    opacity: .5;
+    text-align: center;
+}
+.swiper .slide1 .msg .small,
+.swiper .slide2 .msg .small,
+.swiper .slide3 .msg .small{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.swiper .slide1 .msg .large,
+.swiper .slide2 .msg .large,
+.swiper .slide3 .msg .large{
+    font-size: 40px;
+}
+/* ---------- End Style swiper ----------*/
+
+/* ---------- Start Style collection ----------*/
+.collection{
+    margin: 5px 0;
+}
+/* ---------- Start Style collection-cont ----------*/
+.collection .collection-cont .cont-img{
+    background-image: url(../img/girl4.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 550px;
+    height: 400px;
+}
+.collection .container .container-cont{
+    display: flex;
+    flex-direction: column;
+}
+.collection .collection-cont .cont-info{
+    margin: 10px 0;
+}
+.collection .collection-cont .cont-info .mainB{
+    color: magenta;
+}
+.collection .collection-cont .cont-info p{
+    margin: 30px 0;
+}
+.collection .collection-cont .cont-info p span{
+    margin-right: 15px;
+}
+.collection .collection-cont .cont-info .title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.collection .collection-cont .cont-info .para{
+    color: rgb(71, 68, 68);
+    width: 80%;
+}
+.collection .collection-cont .cont-info button{
+    padding: 5px 15px;
+    background-color: white;
+}
+.collection .collection-cont .cont-info button a{
+    text-decoration: none;
+    color: rgb(71, 68, 68);
+}
+/* ---------- End Style collection-cont ----------*/
+
+/* ---------- Start Style collection-view ----------*/
+.collection-view{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+.collection-view .view-info{
+    background-image: url(../img/man2.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 550px;
+    height: 400px;
+}
+.collection-view .view-info button{
+    top: 50%; left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 5px 20px;
+    text-align: center;
+    background-color: transparent;
+    border-color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.collection-view .view-info button a{
+    text-decoration: none;
+    color: white;
+}
+.collection-view .view-info button:hover,
+.collection .collection-cont .cont-info button:hover{
+    background-color: violet;
+}
+.collection-view .view-img{
+    background-image: url(../img/man.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 550px;
+    height: 400px;
+    margin: 10px 0;
+}
+.collection .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* ---------- Start Style collection-view ----------*/
+
+/* ---------- End Style collection ----------*/
+
+/* ---------- Start Style featured ----------*/
+.featured{
+    margin: 5px 0;
+}
+.featured .feat-title h3{
+    text-align: center;
+}
+.featured .feat-title .feat-itmes{
+    text-align: center;
+    margin: 10px 0;
+}
+.featured .feat-title .feat-itmes ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    margin: 0 15px;
+}
+/* .featured .feat-title .feat-itmes ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(71, 68, 68);
+} */
+.featured .feat-title .feat-itmes ul li a:hover{
+    text-decoration: underline;
+}
+.feat-box{
+    padding: 20px 0;
+    direction: ltr;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin: 10px 0;
+    /* filter: grayscale(1);
+    transition: .7s ease-in-out; */
+}
+/* .box:hover{
+    filter: grayscale(0);
+    transition: .7s ease-in-out;
+} */
+.feat-box .box .box-img{
+    background-image: url(../img/fas1..png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 380px; width: 250px;
+    overflow: hidden;
+}
+.feat-box .box .box-img .price{
+    top: 0;
+    right: 0;
+    padding: 8px 20px;
+    background-color: black;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+.feat-box .img-content p{
+    font-size: 30px;
+    color: rgb(73, 70, 70);
+}
+.feat-box .img-content .stars{
+    margin: 8px 0;
+}
+.feat-box .img-content .stars .active{
+    color: rgb(226, 150, 50);
+}
+.feat-box .img-content .interaction{
+    display: flex;
+}
+.feat-box .img-content .interaction div{
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px; 
+    text-align: center;
+    border: gray 1px solid;
+    color: rgb(92, 88, 88);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .7s ease-in-out;
+}
+.feat-box .img-content .interaction div:hover{
+    transform: rotateY(360deg);
+}
+.feat-box .img-content .interaction div:first-child{
+    color: rgb(241, 26, 134);
+}
+.feat-box .img-content .interaction div:nth-child(2){
+    color: rgb(211, 194, 47);
+}
+.feat-box .img-content .interaction div:last-child{
+    color: lightgreen;
+}
+
+
+.feat-box .box .overflew{
+    top: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 249, 249);
+    opacity: .3;
+    /* transition: .7s ease-in-out; */
+}
+.feat-box .box .box-img:hover .overflew{
+    top: 0;
+}
+.feat-box .box .overflew div{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    background-color: black;
+    opacity: .8;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+}
+.feat-box .box .overflew div svg{
+    font-size: 70px;
+    padding: 10px 20px;
+    color: white;
+}
+/* ---------- End Style featured ----------*/
+
+/* ---------- Start Style offer ----------*/
+.offer{
+    margin: 10px 0;
+    display: flex;
+}
+.offer .img1{
+    background-image: url(../img/face1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    height: 300px;
+}
+.offer .img2{
+    background-image: url(../img/face2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    height: 300px;
+}
+.offer .img1 .img1-content{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50% , -70%);
+    color: white;
+}
+.offer .img1 .img1-content .info{
+    display: flex;
+    align-items: center;
+}
+.offer .img1 .img1-content .price{
+    font-size: 40px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.offer .img1 .img1-content .para{
+    font-size: 20px;
+    font-weight: 400;
+}
+.offer .img2 .img2-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    text-align: center;
+}
+.offer .img2 .img2-content .p{
+    font-size: 30px;
+    font-weight: bold;
+}
+/* ---------- End Style offer ----------*/
+
+/* ---------- Start Style person ----------*/
+.person{
+    margin: 10px 0;
+}
+.person .person-img{
+    background-image: url(../img/man3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 417px;
+}
+.person .person-img .person-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    text-align: center;
+}
+.person .person-img .person-content .person-icon{
+    font-size: 30px;
+    color: deeppink;
+}
+.person .person-img .person-content .p{
+    margin: 40px 0;
+}
+.person .person-img .person-content .person-para p{
+    font-weight: bold;
+}
+/* ---------- End Style person ----------*/
+
+/* ---------- Start Style latest ----------*/
+.latest .swiper-slide{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    text-align: inherit;
+}
+.latest .slide-con .para{
+    margin: 0 20px;
+}
+.latest .slide-con button{
+    padding: 5px 15px;
+}
+.latest h3{
+    text-align: center;
+}
+/* ---------- End Style latest ----------*/
+
+/* ---------- Start Style brand ----------*/
+.brand{
+    margin: 10px 0;
+}
+.brand h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.brand .icon-con{
+    display: flex;
+    justify-content: center;
+    filter: grayscale(1);
+    transition: .7s ease-in-out;
+    cursor: pointer;
+}
+.brand .icon-con:hover{
+    filter: grayscale(0);
+}
+.brand .icon-con .icon svg{
+    font-size: 40px;
+    color: rgb(168, 156, 48);
+}
+.brand .icon-con p{
+    font-size: 25px;
+    color: rgb(41, 39, 19);
+}
+/* ---------- End Style brand ----------*/
+
+/* ---------- Start Style footer ----------*/
+footer .foot-con{
+    background-color: rgba(3, 3, 3, 0.904);
+    padding: 20px 0;
+}
+footer .foot-con .box nav ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+footer .foot-con .box h5,
+footer .foot-con .box-b h5{
+    color:rgb(221, 214, 214) ;
+}
+footer .foot-con .box nav ul li a{
+    text-decoration: none;
+    color: rgb(221, 214, 214);
+    font-weight: bold;
+}
+footer .foot-con .box-b div{
+    margin: 30px 0;
+}
+footer .foot-con .box-b div a{
+    text-decoration: none;
+    color: white;
+}
+footer .foot-con .box-b div input{
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+footer .copyright{
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+footer .copyright .cards ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+footer .copyright .cards ul li a{
+    color: white;
+}
+/* ---------- End Style footer ----------*/
